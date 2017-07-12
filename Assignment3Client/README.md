@@ -12,6 +12,10 @@ Important Notes:
 [lastName][varchar](250),[date][date]
 4. Last step is to deploy the EJB_Project_Services which creates a jar file. Remove the old jar file which is in the lib folder in
    EJB_Project_Client and copy the new jar file in there and add it build path.
+5. You need to create two users and roles in your web server in order to be able to login to the application.
+user: user  user: admin
+role: user  role: admin
+
    
 ## Built With
 Maven
