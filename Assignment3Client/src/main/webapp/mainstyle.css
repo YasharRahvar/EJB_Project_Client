@@ -1,0 +1,144 @@
+BODY {
+	font-family: sans-serif;
+	font-size: 10pt;
+	background-image: url("#{resources['images/mainBackground.jpg']}");
+	BACKGROUND-COLOR: #A3D8FF;
+	padding-top: 5px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-family: " sans-serif;
+	font-size: 24pt;
+	color: black;
+}
+
+h2 {
+	font-family: " sans-serif;
+	font-size: 12pt;
+	color: black;
+}
+
+table {
+	font-family: sans-serif;
+	font-size: 8pt;
+	margin-top: 0px;
+	border-collapse: collapse;
+	padding: .3em;
+	border: 3px #ccc groove;
+	width: 100%;
+}
+
+#table1 { [blue ] margin-bottom:0px; [/blue ]
+	
+}
+
+td, tr {
+	padding: .3em;
+	border: 3px #ccc groove;
+}
+
+label {
+	width: 70px;
+	clear: left;
+	text-align: left;
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+
+input, label {
+	float: left;
+	margin-bottom: 5px;
+}
+
+thead {
+	background: #FFDC75;
+}
+
+tbody {
+	color: black;
+	background: #FFDC75;
+}
+
+.one {
+	position: absolute; /*positioned absolutely*/
+	left: 150px;
+	width: auto;
+	height: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.top {
+	position: relative;
+	font-size: 24px;
+	color: #CCCCCC;
+}
+
+.bot {
+	position: relative;
+	font-size: 18px;
+	color: #CCCCCC;
+}
+
+.boxed {
+	border: 1px solid green;
+	width: 100%;
+	text-align: left;
+	BACKGROUND-COLOR: #FFDC75;
+}
+
+#pageNumberTable {
+	border: 1px solid black;
+}
+
+#pageNumbersRows {
+	border: none;
+}
+
+#employeeTables {
+	padding: 0;
+	border: 0;
+}
+
+#left {
+	float: left;
+	width: 60%;
+}
+
+#right {
+	float: right;
+	width: 40%;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+/************************* ID's *************************/
+#footer {
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+}
+
+#header {
+	position: absolute;
+	padding: 0 0 20px 0; /*top right bottom left*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#mainDoc {
+	margin-left: auto;
+	margin-right: auto;
+	position: CENTER;
+	padding: 0 0 40px 0; /*top right bottom left*/
+	margin-top: 170px;
+	width: 100%;
+	min-width: 960px;
+	/*margin-left:5px;*/
+}
