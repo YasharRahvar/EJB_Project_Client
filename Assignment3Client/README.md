@@ -1,8 +1,8 @@
-#EJB_Project_Client
+# EJB_Project_Client
 
 This is a Client for EJB Project.It includes JSP pages, images, servlets and filters.
 
-##Deployment
+## Deployment
 You can simply create a war file and drop it into webserver deylopment folder and run the server.
 Important Notes: 
 1. Because we are using EJB technology you need to have powerful web server like JBoss to be able to run the application.
@@ -13,9 +13,9 @@ Important Notes:
 4. Last step is to deploy the EJB_Project_Services which creates a jar file. Remove the old jar file which is in the lib folder in
    EJB_Project_Client and copy the new jar file in there and add it build path.
    
-##Built With
+## Built With
 Maven
 
-##Author
+## Author
 Yashar Rahvar
 
